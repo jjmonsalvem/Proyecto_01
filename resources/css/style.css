@@ -1,0 +1,27 @@
+body {
+    /*background-color: rgba(124, 34, 184, .75);*/
+    background-image: url(../imgs/img2.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+}
+
+#identificador {
+    margin: 1px;
+    border: 25px dashed tomato;
+    color: white;
+    background-color: forestgreen;
+    width: 25%;
+    height: 300px;
+}

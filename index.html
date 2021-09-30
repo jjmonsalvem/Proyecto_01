@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="resources/css/style.css">
+    <title>Titulo de la pagina</title>
+</head>
+
+<body>
+    <h1 style="font-size: 45px; background-color: blanchedalmond; font-family: 'Courier New', Courier, monospace;">Encabezado 1</h1>
+    <h2>Encabezado 2</h2>
+    <h3>Encabezado 3</h3>
+    <h4>Encabezado 4</h4>
+    <h5>Encabezado 5</h5>
+    <hr>
+    <p>Parrafo 1</p>
+    <p>Parrafo 2</p>
+    <p>Parrafo 3</p>
+    <pre>
+        Este es el titulo del Parrafo
+        esta es la primera linea.
+        esta es la segunda linea.
+        esta es la tercera linea.
+        esta es la cuarta linea.
+    </pre>
+    <hr>
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+    <hr>
+    <ol>
+        <li><a href="#">One</a></li>
+        <li>Two</li>
+        <li>Three</li>
+    </ol>
+    <hr>
+    <a href="pagina.html">Vinculo</a>
+    <hr> Tablas
+    <table border="1">
+        <tr>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Aprellido</th>
+        </tr>
+        <tr>
+            <td><i>Celda</i></td>
+            <td><b>Celda</b></td>
+            <td>Celda</td>
+        </tr>
+        <tr>
+            <td><i>Celda</i></td>
+            <td><b>Celda</b></td>
+            <td>Celda</td>
+        </tr>
+        <tr style="color: #15ff00;">
+            <td><i>Celda</i></td>
+            <td><b>Celda</b></td>
+            <td>Celda</td>
+        </tr>
+    </table>
+    <img width="350" height="200" src="resources/imgs/img1.jpg" border="1" title="Texto de ayuda">
+    <picture>
+        <source media="(min-width:1000px)" srcset="resources/imgs/img2.png">
+        <source media="(min-width:800px)" srcset="resources/imgs/img1.jpg">
+        <img src="resources/imgs/Sfintercell.PNG" style="width:auto;">
+    </picture>
+    <table>
+        <tr>
+            <th>img1</th>
+            <th>img2</th>
+            <th>img3</th>
+        </tr>
+        <tr>
+            <td>
+                <img width="150" height="75" src="resources/imgs/Ratanegra.PNG" alt="">
+            </td>
+            <td>
+                <img width="150" height="75" src="resources/imgs/Ratablanca.PNG" alt="">
+            </td>
+            <td>
+                <img width="150" height="75" src="resources/imgs/Sfintercell.PNG" alt="">
+            </td>
+        </tr>
+    </table>
+    <form>
+        <fieldset>
+            <legend>Registro Cliente</legend>
+            <label for="nombre">Nombre del usuario: </label>
+            <input type="text" required name="nombre"><br>
+            <label for="correo">Email del contacto: </label>
+            <input type="email" required name="correo"><br>
+            <label for="fecha">Fecha de nacimiento: </label>
+            <input type="date" name="fecha"> <br>
+            <label for="dropdown">Seleccione 1: </label>
+            <select name="dropdown" required>
+                <option value="1">Valor1</option>
+                <option value="2">Valor2</option>
+                <option value="3">Valor3</option>
+            </select><br>
+            <label for="dropdown">Seleccione varios: </label>
+            <select name="dropdown" multiple>
+                <option value="1">Valor1</option>
+                <option value="2">Valor2</option>
+                <option value="3">Valor3</option>
+            </select><br>
+            <input type="submit" value="Send!"> Guardar
+        </fieldset>
+    </form>
+</body>
+<div style="border: 1px solid blue; background-color: blueviolet;">
+    <p style="color: white;">TEXTO 1<span style="color: black;"></span> </p>
+</div>
+<div id="identificador">
+    <p style="color: white;">TEXTO 2<span style="color: black;"></span> </p>
+</div>
+
+</html>
